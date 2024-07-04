@@ -5,33 +5,42 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Book-portfolio</title>
-    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
       rel="stylesheet">
+      <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    
   </head>
   <body>
     <div class="wrapper">
       <div class="book">
         <div class="cover cover-left"></div>
         <div class="cover cover-right turn"></div>
-          <div class="book__inner">
-            <div class="book__page page page--left">
-              <div class="profile-page">
-                  <img src="images/photo.jpg" alt="Gordon Flesh">
-                  <h1>Gordon Flesh</h1>
-                  <h3>Soft Engineer</h3>
-                  <div class="social-media">
-                    <a href="#"></a>
-                    <a href="#"></a>
-                    <a href="#"></a>
-                    <a href="#"></a>
-                    
-                  </div>
-              </div>
+        <div class="book__inner">
+          <div class="book__page page page--left">
+            <div class="page__profile profile">
+                <img src="images/photo.jpg" alt="Gordon Flesh">
+                <h1>Vlad Basoon</h1>
+                <h3>Software Engineer</h3>
+                <div class="profile__social social">
+                  <a class="social__icon social__icon--fb" href="#"><i class='bx bxl-facebook'></i></a>
+                  <a class="social__icon social__icon--x" href="#"><i class='bx bxl-twitter'></i></a>
+                  <a class="social__icon social__icon--ld" href="#"><i class='bx bxl-linkedin'></i></a>
+                  <a class="social__icon social__icon--in" href="#"><i class='bx bxl-instagram'></i></a>
+                </div>
+                <p class="profile__text">
+                  Hi, I'm Vlad Basoon, a Software Engeener and Web Developer. Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum est impedit incidunt sit ratione soluta. Provident sequi neque error facilis!
+                </p>
+                <div class="profile__btn-box">
+                  <a href="#" class="btn">DownloadCV</a>
+                  <a href="#" class="btn">Contact With Me</a>
+                </div>
             </div>
           </div>
+          <div class="book__page page page--right"></div>
+        </div>
       </div>
       
     </div>
@@ -39,3 +48,4 @@
     <script type="module" src="/main.js"></script>
   </body>
 </html>
+
