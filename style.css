@@ -22,13 +22,14 @@
   align-items: center;
   min-height: 100vh;
   background-color: var(--bg-color);
-
+  
 }
 
 .book {
   position: relative;
   width: 66rem;
   height: 45rem;
+  
   /* //background: royalblue; */
 }
 
