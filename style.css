@@ -72,12 +72,27 @@ body {
   
 }
 
-.book__page.page {
+.page {
   position: absolute;
   width: 50%;
   height: 100%;
   display: flex;
-  border: 2px solid red;
+  padding: 2rem;
+  box-shadow: 0 0 .6rem rgba(0,0,0,.1);
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile__img {
+  max-width: 180px;
+  border-radius: 50%;
+  border: .25rem solid var(--main-color);
+  margin-bottom: .8rem;
 }
 
 
